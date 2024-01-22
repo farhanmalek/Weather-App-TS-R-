@@ -1,27 +1,28 @@
-# React + TypeScript + Vite
+# Weatherly App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Weatherly is a weather app built using TypeScript, React, and Tailwind CSS. This project represents my first experience with TypeScript and Tailwind CSS. The app fetches weather data from an API and displays relevant information. Users can search for weather details by city.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
 
-## Expanding the ESLint configuration
+### 1. **React with TypeScript:**
+   - Utilizes TypeScript with React to provide static typing and enhance code maintainability.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 2. **Tailwind CSS Styling:**
+   - Implements Tailwind CSS for styling, offering a utility-first and highly customizable styling approach.
 
-- Configure the top-level `parserOptions` property like this:
+### 3. **Weather Data API Integration:**
+   - Fetches weather data from a third-party API to provide accurate and up-to-date information.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### 4. **City Search Functionality:**
+   - Enables users to search for weather details by city, enhancing the app's user-friendly features.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Usage
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/farhanmalek/WeatherApp.git
+   cd WeatherApp
+   npm i
+   npm run dev
